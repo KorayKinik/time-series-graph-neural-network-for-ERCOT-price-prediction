@@ -3,3 +3,10 @@ Forecasting locational electricity prices using spatio-temporal graph neural net
 
 Electricity is hard to store [1]. To match supply and demand real time and maintain a stable 60Hz voltage across the power grid, regulation mechanisms use optimization algorithms. For example, in Texas, ERCOT orchestrates over 1,250 power generation units by sending dispatch instructions every 5 minutes to maintain stable flow of power [2]. Yet, frequent congestions and outages cause volatility in local electricity prices [3]. This creates financial incentive for auxiliary generators and energy traders to predict day-ahead locational marginal prices (LMP). So far, most AI models focused on forecasting price in a single geo location [4]. However, the grid is a nodal network and each substation exchanges power with others regularly. 
 In this work, I addressed this using a time series graph neural network approach to simulate the network. I trained a geometric temporal pytorch model [5] on 3 years’ worth of ERCOT data [6] in hourly resolution: historical prices and loads on all nodes, power flow between nodes, and transmission line capacities. The model successfully forecasted day-ahead LMPs at all 4,726 substations – except for intra-day spikes caused by local unplanned outages and transmission congestions.
+
+Where does our electricity come from?
+<img width="740" height="94" alt="image" src="https://github.com/user-attachments/assets/75942dc6-9138-4e4e-9c12-2579b8898977" />
+
+<img width="930" height="491" alt="image" src="https://github.com/user-attachments/assets/b4c28e70-3678-41ed-851b-54fa1b2e5464" />
+
+
