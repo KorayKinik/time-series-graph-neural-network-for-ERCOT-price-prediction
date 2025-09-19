@@ -24,7 +24,7 @@ In this work, I addressed this using a time series graph neural network approach
 ![Slide16](https://github.com/user-attachments/assets/360c2dc1-96c1-4f35-a423-22f6efa30e15)
 ![Slide17](https://github.com/user-attachments/assets/0ab42fde-3c91-40ef-a176-f00a9c981eb1)
 ![Slide18](https://github.com/user-attachments/assets/9d439eda-5680-4e9f-adf3-ce112871d36f)
-![Slide19](https://github.com/user-attachments/assets/b6f830a3-3a79-4b67-9f41-840c35fdac6a)
+
 ![Slide20](https://github.com/user-attachments/assets/29747f97-f31c-4065-bd2b-eb282356d2d3)
 ![Slide21](https://github.com/user-attachments/assets/1bd7cff8-2377-4f80-b916-20dd7e53d3f9)
 ![Slide22](https://github.com/user-attachments/assets/909a361d-17f2-4a06-b282-2634c17431b9)
